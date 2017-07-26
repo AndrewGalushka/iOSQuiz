@@ -1,10 +1,5 @@
-# iOSQuiz
 
-<p align="center">
-    <a href="http://i.imgur.com/ZN13eaf.gif">
-        <img src="https://monosnap.com/file/oXidNcr1niso8z9Nf3HbKrpd9AzdF0.png">
-    </a>
-</p>
+<center> <h1>heading 1</h1> </center>
 
 <p align="center">
     <a href="http://i.imgur.com/ZN13eaf.gif">
