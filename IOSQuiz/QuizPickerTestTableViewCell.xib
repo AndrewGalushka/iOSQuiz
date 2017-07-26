@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="165" id="KGk-i7-Jjw" customClass="QuizPickerTestTableViewCell" customModule="IOSQuiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="164.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfm-WN-WhL">
+                        <rect key="frame" x="10" y="42.5" width="328" height="80"/>
+                        <color key="backgroundColor" red="0.39005762338638306" green="0.99745875597000122" blue="0.38318026065826416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="KUV-xL-mvL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.16779476400000001" green="0.21715831760000001" blue="0.27861651780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="lfm-WN-WhL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3UK-NQ-ojt"/>
+                    <constraint firstAttribute="trailing" secondItem="lfm-WN-WhL" secondAttribute="trailing" constant="10" id="3gU-qk-3Oo"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lfm-WN-WhL" secondAttribute="bottom" constant="10" id="3sk-1V-V47"/>
+                    <constraint firstItem="lfm-WN-WhL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aKB-vg-4Vb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentAnswerLabel" destination="lfm-WN-WhL" id="4Wk-PM-8jX"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="-54.5"/>
+        </tableViewCell>
+    </objects>
+</document>

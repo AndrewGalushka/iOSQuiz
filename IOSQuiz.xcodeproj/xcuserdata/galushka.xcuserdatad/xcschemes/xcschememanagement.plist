@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IOSQuiz.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>IOSQuizWatchOS (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>IOSQuizWatchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8D3E11E01F0A559A004B21D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D5D0EB01EE16AF400373BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D5D0EC41EE16AF500373BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D5D0ECF1EE16AF500373BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
