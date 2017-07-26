@@ -1,5 +1,5 @@
 
-<center> <h1>heading 1</h1> </center>
+<h1><center>Centered text!</center></h1>
 
 <p align="center">
     <a href="http://i.imgur.com/ZN13eaf.gif">
