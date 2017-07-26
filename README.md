@@ -1,3 +1,3 @@
 # iOSQuiz
 
-![alt text](https://media.giphy.com/media/xTkcF31DXLbEPFozTO/giphy.gif)
+![Alt text](https://monosnap.com/file/Rk4uCpKmo8Brv4BLGSxIKvhi5eFrLp)
