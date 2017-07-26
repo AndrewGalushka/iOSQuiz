@@ -1,5 +1,5 @@
 <p align="center">
-        <img src="https://monosnap.com/file/ikPLXr899kQdiLlWNtHHUggPOlAUEZ.png">
+        <img src="https://monosnap.com/file/AhaqMW9iRTpptxn7yTAwZARXzoQ80C.png">
 </p>
 
 <p align="center">
