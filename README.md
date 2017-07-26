@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-        <img src="https://media.giphy.com/media/3oeHLvSB1nLEsa2xos/giphy.gif">
+        <img src="https://media.giphy.com/media/xUPGGMbHBcQJQRlLws/giphy.gif">
 </p>
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
@@ -12,19 +12,19 @@
 ---
 ### LogIn Screen
 <p align="center">
-        <img src="https://media.giphy.com/media/xUPGGyH1uSV20yzvag/giphy.gif">
+        <img src="https://media.giphy.com/media/xUPGGyKWyepftFujTy/giphy.gif">
 </p>
 
 ---
 ### Test, normal mode
 <p align="center">
-        <img src="https://media.giphy.com/media/l3JDy0YuS76yptd5K/giphy.gif">
+        <img src="https://media.giphy.com/media/xUPGGIjg5wTRz9Vj6o/giphy.gif">
 </p>
 
 ---
 ### Test, challenge mode
 <p align="center">
-        <img src="https://media.giphy.com/media/3o8dFfHNowsLkCEPV6/giphy.gif">
+        <img src="https://media.giphy.com/media/3o8dFyuMFrrIT3Fw88/giphy.gif">
 </p>
 
 ---
@@ -36,11 +36,11 @@
 ---
 ### DeepLinks
 <p align="center">
-        <img src="https://media.giphy.com/media/26zziCGUt3OUN1cQM/giphy.gif">
+        <img src="https://media.giphy.com/media/3ohzgRtDn4jmKxS3hS/giphy.gif">
 </p>
 
 <p align="center">
-        <img src="https://media.giphy.com/media/xTkcETTlpSPS1MH5qo/giphy.gif">
+        <img src="https://media.giphy.com/media/3ohzh1nxANmWyvms0g/giphy.gif">
 </p>
 
 
