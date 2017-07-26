@@ -1,5 +1,7 @@
 
-<h1><center>Centered text!</center></h1>
+
+###IOS Quiz
+
 
 <p align="center">
     <a href="http://i.imgur.com/ZN13eaf.gif">
