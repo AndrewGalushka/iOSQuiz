@@ -1,6 +1,6 @@
 
 
-###IOS Quiz
+### `IOSQuiz`
 
 
 <p align="center">
