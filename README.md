@@ -1,6 +1,10 @@
 
-[img]https://monosnap.com/file/ikPLXr899kQdiLlWNtHHUggPOlAUEZ.png[/img]
 
+<p align="center">
+    <a href="https://monosnap.com/file/ikPLXr899kQdiLlWNtHHUggPOlAUEZ.png">
+        <img src="https://monosnap.com/file/ikPLXr899kQdiLlWNtHHUggPOlAUEZ.png">
+    </a>
+</p>
 
 <p align="center">
     <a href="http://i.imgur.com/ZN13eaf.gif">
