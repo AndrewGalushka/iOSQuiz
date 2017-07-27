@@ -6,7 +6,7 @@
         <img src="https://media.giphy.com/media/xUPGGMbHBcQJQRlLws/giphy.gif">
 </p>
 
-**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server.                                                                                        
+**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, and save results both locally and remotely on the server.                                                                                        
 
 **Test has two modes:**
 * *Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                                                                              
