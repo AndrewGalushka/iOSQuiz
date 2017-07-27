@@ -10,7 +10,7 @@
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
 
 ---
-### LogIn Screen
+### Login Screen
 <p align="center">
         <img src="https://media.giphy.com/media/xUPGGyKWyepftFujTy/giphy.gif">
 </p>
