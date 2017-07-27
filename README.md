@@ -9,7 +9,8 @@
 **IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server.                                                                                        
 
 **Test has two modes:**                                                                                                     
-*Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                                     
+*Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                              
+and                                                    
 *Challenge* - сhooses one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
