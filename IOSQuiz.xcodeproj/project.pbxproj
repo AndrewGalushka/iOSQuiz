@@ -635,12 +635,12 @@
 			name = History;
 			sourceTree = "<group>";
 		};
-		8D3783541F1370AA001D69A1 /* Extentions */ = {
+		8D3783541F1370AA001D69A1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				8D3783551F1370C6001D69A1 /* WKIntefaceControllerExtentions.swift */,
 			);
-			path = Extentions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8D3783581F1373DD001D69A1 /* WKRouterType */ = {
@@ -686,7 +686,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6204881F18F33100462AA6 /* WKQuizAlerts */,
-				8D3783541F1370AA001D69A1 /* Extentions */,
+				8D3783541F1370AA001D69A1 /* Extensions */,
 				8D3783581F1373DD001D69A1 /* WKRouterType */,
 				8D37834E1F137032001D69A1 /* Screens */,
 				8DB653091F13C3F700390255 /* CategoriesInterfaceTable */,
@@ -1315,7 +1315,7 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = YDDE2DY87F;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1824,7 +1824,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = IOSQuiz/IOSQuiz.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = YDDE2DY87F;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = IOSQuiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -1847,7 +1848,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = IOSQuiz/IOSQuiz.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = YDDE2DY87F;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = IOSQuiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
