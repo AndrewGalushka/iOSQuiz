@@ -7,7 +7,7 @@
 </p>
 
 **IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server. 
-IOS Quiz has two modes - normal and challenge.
+He has two modes - normal and challenge.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
