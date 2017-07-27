@@ -71,8 +71,6 @@
 		8D3783681F139220001D69A1 /* HistoryScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783651F138BFC001D69A1 /* HistoryScreenViewModel.swift */; };
 		8D3783691F1392E2001D69A1 /* QuizSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F468C1EF9761600C60C50 /* QuizSupportFunctions.swift */; };
 		8D37836A1F13A332001D69A1 /* HistoryIntefaceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */; };
-		8D3E11E51F0A559A004B21D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E11E31F0A559A004B21D0 /* Interface.storyboard */; };
-		8D3E11E71F0A559A004B21D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E11E61F0A559A004B21D0 /* Assets.xcassets */; };
 		8D3E11EE1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8D3E11F71F0A559A004B21D0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */; };
 		8D3E11F91F0A559A004B21D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E11F81F0A559A004B21D0 /* NotificationController.swift */; };
@@ -101,7 +99,6 @@
 		8DAC7F7C1F17C0D800F56BE8 /* InTestDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC7F7B1F17C0D800F56BE8 /* InTestDataStorage.swift */; };
 		8DB6530C1F13C4F700390255 /* CategoriesRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */; };
 		8DB6530F1F13CB9700390255 /* InTestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6530E1F13CB9700390255 /* InTestInterfaceController.swift */; };
-		8DB653111F13CDFA00390255 /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB653101F13CDFA00390255 /* QuizTimer.swift */; };
 		8DB653141F13DA1B00390255 /* InTestRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB653131F13DA1B00390255 /* InTestRowController.swift */; };
 		8DBE64E61F2A20AE00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
 		8DBE64E71F2A20AF00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
@@ -267,9 +264,6 @@
 		8D3783621F138455001D69A1 /* MainScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
 		8D3783651F138BFC001D69A1 /* HistoryScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModel.swift; sourceTree = "<group>"; };
 		8D3E11E11F0A559A004B21D0 /* IOSQuizWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSQuizWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D3E11E41F0A559A004B21D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		8D3E11E61F0A559A004B21D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D3E11E81F0A559A004B21D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IOSQuizWatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3E11F31F0A559A004B21D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -300,7 +294,6 @@
 		8DAC7F7B1F17C0D800F56BE8 /* InTestDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataStorage.swift; sourceTree = "<group>"; };
 		8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRowController.swift; sourceTree = "<group>"; };
 		8DB6530E1F13CB9700390255 /* InTestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInterfaceController.swift; sourceTree = "<group>"; };
-		8DB653101F13CDFA00390255 /* QuizTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizTimer.swift; path = "IOSQuizWatchOS Extension/QuizTimer.swift"; sourceTree = "<group>"; };
 		8DB653131F13DA1B00390255 /* InTestRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestRowController.swift; sourceTree = "<group>"; };
 		8DBE64EA1F2A265500CB0968 /* QuizPageViewControllerHistoryVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerHistoryVCFactoryModule.swift; sourceTree = "<group>"; };
 		8DBE64EB1F2A265500CB0968 /* QuizPageViewControllerTestVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerTestVCFactoryModule.swift; sourceTree = "<group>"; };
@@ -352,6 +345,10 @@
 		8DBE65811F2A36A200CB0968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DBE65821F2A36A200CB0968 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DBE65831F2A36A200CB0968 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DBE658C1F2A3ABB00CB0968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DBE658E1F2A3ABB00CB0968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8DBE658F1F2A3ABB00CB0968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBE65911F2A3ABB00CB0968 /* QuizTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -737,16 +734,6 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
-		8D3E11E21F0A559A004B21D0 /* IOSQuizWatchOS */ = {
-			isa = PBXGroup;
-			children = (
-				8D3E11E31F0A559A004B21D0 /* Interface.storyboard */,
-				8D3E11E61F0A559A004B21D0 /* Assets.xcassets */,
-				8D3E11E81F0A559A004B21D0 /* Info.plist */,
-			);
-			path = IOSQuizWatchOS;
-			sourceTree = "<group>";
-		};
 		8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -768,14 +755,6 @@
 				8D3E11F31F0A559A004B21D0 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8D42F2291F14CF98003DAD52 /* QuizTimer */ = {
-			isa = PBXGroup;
-			children = (
-				8DB653101F13CDFA00390255 /* QuizTimer.swift */,
-			);
-			name = QuizTimer;
 			sourceTree = "<group>";
 		};
 		8D4E1FC71F0FB5FD00F1CC63 /* WatchSessionReceiveReplyModule */ = {
@@ -832,7 +811,8 @@
 				8D4F468B1EF975F500C60C50 /* QuizSupportFunctions */,
 				8D33DA871F0CD1D500E512DA /* WatchSession */,
 				8D8391B21F0BD2510084452A /* IOS */,
-				8D8391B31F0BD2700084452A /* WatchOS */,
+				8DBE658A1F2A3ABB00CB0968 /* WatchOS */,
+				8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */,
 				8D5D0EB21EE16AF400373BFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -906,16 +886,6 @@
 				8D5D0ED31EE16AF500373BFF /* IOSQuizUITests */,
 			);
 			name = IOS;
-			sourceTree = "<group>";
-		};
-		8D8391B31F0BD2700084452A /* WatchOS */ = {
-			isa = PBXGroup;
-			children = (
-				8D42F2291F14CF98003DAD52 /* QuizTimer */,
-				8D3E11E21F0A559A004B21D0 /* IOSQuizWatchOS */,
-				8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */,
-			);
-			name = WatchOS;
 			sourceTree = "<group>";
 		};
 		8D869DCD1F0E6B0200369C86 /* DataProvider */ = {
@@ -1203,6 +1173,33 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8DBE658A1F2A3ABB00CB0968 /* WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8DBE658B1F2A3ABB00CB0968 /* IOSQuizWatchOS */,
+				8DBE65901F2A3ABB00CB0968 /* QuizTimer */,
+			);
+			path = WatchOS;
+			sourceTree = "<group>";
+		};
+		8DBE658B1F2A3ABB00CB0968 /* IOSQuizWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8DBE658C1F2A3ABB00CB0968 /* Assets.xcassets */,
+				8DBE658D1F2A3ABB00CB0968 /* Interface.storyboard */,
+				8DBE658F1F2A3ABB00CB0968 /* Info.plist */,
+			);
+			path = IOSQuizWatchOS;
+			sourceTree = "<group>";
+		};
+		8DBE65901F2A3ABB00CB0968 /* QuizTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8DBE65911F2A3ABB00CB0968 /* QuizTimer.swift */,
+			);
+			path = QuizTimer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1369,8 +1366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3E11E71F0A559A004B21D0 /* Assets.xcassets in Resources */,
-				8D3E11E51F0A559A004B21D0 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1443,7 +1438,6 @@
 				8D0EBE2E1F1919C00000BBF4 /* InTestHistoryInteractor.swift in Sources */,
 				8D058FE91F2A1E750083EC9C /* QuizPostHistoryModel.swift in Sources */,
 				8D4E1FD61F0FC4E700F1CC63 /* WatchSessionDictionaryKeys.swift in Sources */,
-				8DB653111F13CDFA00390255 /* QuizTimer.swift in Sources */,
 				8D3783681F139220001D69A1 /* HistoryScreenViewModel.swift in Sources */,
 				8D3783611F1375C1001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */,
 				8D3783691F1392E2001D69A1 /* QuizSupportFunctions.swift in Sources */,
@@ -1603,10 +1597,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D3E11E31F0A559A004B21D0 /* Interface.storyboard */ = {
+		8DBE658D1F2A3ABB00CB0968 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D3E11E41F0A559A004B21D0 /* Base */,
+				8DBE658E1F2A3ABB00CB0968 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
