@@ -6,8 +6,10 @@
         <img src="https://media.giphy.com/media/xUPGGMbHBcQJQRlLws/giphy.gif">
 </p>
 
-**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server. 
-He has two modes - normal and challenge.
+**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server.                                                                                        
+Test has to modes:                                                                                                     
+Normal - user сhooses appropriate test category, test time - 5 minutes.                                                     
+Challenge - сhooses random one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
