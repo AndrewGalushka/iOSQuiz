@@ -10,7 +10,7 @@
 
 Test has to modes:                                                                                                     
 Normal - user сhooses appropriate test category, 5 minutes for whole test.                                                     
-Challenge - сhooses random one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
+Challenge - сhooses one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
