@@ -812,7 +812,6 @@
 				8D33DA871F0CD1D500E512DA /* WatchSession */,
 				8D8391B21F0BD2510084452A /* IOS */,
 				8DBE658A1F2A3ABB00CB0968 /* WatchOS */,
-				8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */,
 				8D5D0EB21EE16AF400373BFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1176,6 +1175,7 @@
 		8DBE658A1F2A3ABB00CB0968 /* WatchOS */ = {
 			isa = PBXGroup;
 			children = (
+				8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */,
 				8DBE658B1F2A3ABB00CB0968 /* IOSQuizWatchOS */,
 				8DBE65901F2A3ABB00CB0968 /* QuizTimer */,
 			);
