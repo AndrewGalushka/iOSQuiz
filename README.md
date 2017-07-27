@@ -6,7 +6,7 @@
         <img src="https://media.giphy.com/media/xUPGGMbHBcQJQRlLws/giphy.gif">
 </p>
 
-**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, save results both locally and remotely on the server.
+**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests and save results both locally and remotely on the server.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
