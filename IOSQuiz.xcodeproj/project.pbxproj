@@ -44,17 +44,12 @@
 		8D2795ED1F0D30D800B989FA /* WatchSessionDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2795E81F0D18ED00B989FA /* WatchSessionDataParser.swift */; };
 		8D2795F01F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2795EF1F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift */; };
 		8D33936C1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33936B1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift */; };
-		8D37834D1F136F42001D69A1 /* HistoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */; };
 		8D3783571F1370D3001D69A1 /* WKIntefaceControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783551F1370C6001D69A1 /* WKIntefaceControllerExtentions.swift */; };
 		8D37835B1F137471001D69A1 /* WKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783591F1373F6001D69A1 /* WKRouter.swift */; };
 		8D3783601F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */; };
 		8D3783611F1375C1001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */; };
 		8D3783691F1392E2001D69A1 /* QuizSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F468C1EF9761600C60C50 /* QuizSupportFunctions.swift */; };
-		8D37836A1F13A332001D69A1 /* HistoryIntefaceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */; };
 		8D3E11EE1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8D3E11F71F0A559A004B21D0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */; };
-		8D3E11F91F0A559A004B21D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E11F81F0A559A004B21D0 /* NotificationController.swift */; };
-		8D3E11FB1F0A559A004B21D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */; };
 		8D3E11FF1F0A559A004B21D0 /* IOSQuizWatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8D3E11E11F0A559A004B21D0 /* IOSQuizWatchOS.app */; };
 		8D4E1FCA1F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FC91F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift */; };
 		8D4E1FCC1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FCB1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift */; };
@@ -94,11 +89,13 @@
 		8D61DC971F2B4BA2009ECF75 /* InTestInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC5C1F2B491B009ECF75 /* InTestInteractorInput.swift */; };
 		8D61DC9C1F2B4BBF009ECF75 /* InTestHistoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6D1F2B491B009ECF75 /* InTestHistoryViewProtocol.swift */; };
 		8D61DC9F1F2B50BC009ECF75 /* InTestViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6E1F2B491B009ECF75 /* InTestViewProtocol.swift */; };
+		8D61DCA41F2B5218009ECF75 /* CategoriesRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DCA11F2B5214009ECF75 /* CategoriesRowController.swift */; };
+		8D61DCA51F2B5218009ECF75 /* HistoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DCA21F2B5214009ECF75 /* HistoryRowController.swift */; };
+		8D61DCA61F2B5218009ECF75 /* InTestRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DCA31F2B5214009ECF75 /* InTestRowController.swift */; };
+		8D61DCAB1F2B52C6009ECF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D61DCA81F2B527D009ECF75 /* Assets.xcassets */; };
 		8D62048B1F18F48C00462AA6 /* WKQuizAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */; };
 		8D869D9C1F0E402500369C86 /* WatchSessionReplyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */; };
 		8D869D9D1F0E402900369C86 /* WatchSessionReplyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */; };
-		8DB6530C1F13C4F700390255 /* CategoriesRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */; };
-		8DB653141F13DA1B00390255 /* InTestRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB653131F13DA1B00390255 /* InTestRowController.swift */; };
 		8DBE64E61F2A20AE00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
 		8DBE64E71F2A20AF00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
 		8DBE64F31F2A267200CB0968 /* QuizPageViewControllerHistoryVCFactoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE64EA1F2A265500CB0968 /* QuizPageViewControllerHistoryVCFactoryModule.swift */; };
@@ -223,17 +220,11 @@
 		8D2795EA1F0D2D1E00B989FA /* WatchSessionDataParserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionDataParserType.swift; sourceTree = "<group>"; };
 		8D2795EF1F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionIOSReplyDataProvider.swift; sourceTree = "<group>"; };
 		8D33936B1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionIOSReplyDataProviderType.swift; sourceTree = "<group>"; };
-		8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIntefaceTable.swift; sourceTree = "<group>"; };
-		8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowController.swift; sourceTree = "<group>"; };
 		8D3783551F1370C6001D69A1 /* WKIntefaceControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKIntefaceControllerExtentions.swift; sourceTree = "<group>"; };
 		8D3783591F1373F6001D69A1 /* WKRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKRouter.swift; sourceTree = "<group>"; };
 		8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModuleType.swift; sourceTree = "<group>"; };
 		8D3E11E11F0A559A004B21D0 /* IOSQuizWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSQuizWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IOSQuizWatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D3E11F31F0A559A004B21D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		8D3E11F81F0A559A004B21D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4E1FC91F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModule.swift; sourceTree = "<group>"; };
 		8D4E1FCB1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModuleBaseType.swift; sourceTree = "<group>"; };
 		8D4E1FCD1F0FB7B600F1CC63 /* WatchSessionRequestCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionRequestCollector.swift; sourceTree = "<group>"; };
@@ -245,7 +236,6 @@
 		8D5D0ECB1EE16AF500373BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D5D0ED41EE16AF500373BFF /* IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizUITests.swift; sourceTree = "<group>"; };
 		8D5D0ED61EE16AF500373BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D61DC421F2B320F009ECF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D61DC491F2B491B009ECF75 /* HistoryScreenViewModelStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModelStorage.swift; sourceTree = "<group>"; };
 		8D61DC4B1F2B491B009ECF75 /* HistoryIntefaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIntefaceController.swift; sourceTree = "<group>"; };
 		8D61DC4D1F2B491B009ECF75 /* HistoryScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModel.swift; sourceTree = "<group>"; };
@@ -272,11 +262,16 @@
 		8D61DC751F2B491B009ECF75 /* MainScreenInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInterfaceController.swift; sourceTree = "<group>"; };
 		8D61DC771F2B491B009ECF75 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
 		8D61DC921F2B4A67009ECF75 /* HistoryScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenRouter.swift; sourceTree = "<group>"; };
+		8D61DCA11F2B5214009ECF75 /* CategoriesRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRowController.swift; sourceTree = "<group>"; };
+		8D61DCA21F2B5214009ECF75 /* HistoryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowController.swift; sourceTree = "<group>"; };
+		8D61DCA31F2B5214009ECF75 /* InTestRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestRowController.swift; sourceTree = "<group>"; };
+		8D61DCA81F2B527D009ECF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D61DCA91F2B527D009ECF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D61DCAD1F2B5351009ECF75 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8D61DCAE1F2B5351009ECF75 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKQuizAlerts.swift; sourceTree = "<group>"; };
 		8D65BA0A1F056277002D7BD5 /* IOSQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSQuiz.entitlements; sourceTree = "<group>"; };
 		8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReplyResult.swift; sourceTree = "<group>"; };
-		8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRowController.swift; sourceTree = "<group>"; };
-		8DB653131F13DA1B00390255 /* InTestRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestRowController.swift; sourceTree = "<group>"; };
 		8DBE64EA1F2A265500CB0968 /* QuizPageViewControllerHistoryVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerHistoryVCFactoryModule.swift; sourceTree = "<group>"; };
 		8DBE64EB1F2A265500CB0968 /* QuizPageViewControllerTestVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerTestVCFactoryModule.swift; sourceTree = "<group>"; };
 		8DBE64EC1F2A265500CB0968 /* QuizTestPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTestPageViewController.swift; sourceTree = "<group>"; };
@@ -515,15 +510,6 @@
 			path = WatchSession;
 			sourceTree = "<group>";
 		};
-		8D3783461F13681C001D69A1 /* HistoryInterfaceTable */ = {
-			isa = PBXGroup;
-			children = (
-				8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */,
-				8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */,
-			);
-			name = HistoryInterfaceTable;
-			sourceTree = "<group>";
-		};
 		8D3783541F1370AA001D69A1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,18 +526,6 @@
 			path = WKRouterType;
 			sourceTree = "<group>";
 		};
-		8D3783671F138C41001D69A1 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */,
-				8D3E11F81F0A559A004B21D0 /* NotificationController.swift */,
-				8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */,
-				8D61DC421F2B320F009ECF75 /* Info.plist */,
-				8D3E11F21F0A559A004B21D0 /* Supporting Files */,
-			);
-			name = Other;
-			sourceTree = "<group>";
-		};
 		8D3E11F11F0A559A004B21D0 /* IOSQuizWatchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,20 +533,11 @@
 				8D3783541F1370AA001D69A1 /* Extensions */,
 				8D3783581F1373DD001D69A1 /* WKRouterType */,
 				8D61DC441F2B491B009ECF75 /* Screens */,
-				8DB653091F13C3F700390255 /* CategoriesInterfaceTable */,
-				8D3783461F13681C001D69A1 /* HistoryInterfaceTable */,
-				8DB653121F13D9F600390255 /* InTestInterfaceTable */,
-				8D3783671F138C41001D69A1 /* Other */,
+				8D61DCA01F2B5214009ECF75 /* RowControllers */,
+				8D61DCA71F2B527D009ECF75 /* Resources */,
+				8D61DCAC1F2B5351009ECF75 /* Notification */,
 			);
 			path = "IOSQuizWatchOS Extension";
-			sourceTree = "<group>";
-		};
-		8D3E11F21F0A559A004B21D0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D3E11F31F0A559A004B21D0 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8D4E1FC71F0FB5FD00F1CC63 /* WatchSessionReceiveReplyModule */ = {
@@ -918,6 +883,34 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8D61DCA01F2B5214009ECF75 /* RowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DCA11F2B5214009ECF75 /* CategoriesRowController.swift */,
+				8D61DCA21F2B5214009ECF75 /* HistoryRowController.swift */,
+				8D61DCA31F2B5214009ECF75 /* InTestRowController.swift */,
+			);
+			path = RowControllers;
+			sourceTree = "<group>";
+		};
+		8D61DCA71F2B527D009ECF75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DCA81F2B527D009ECF75 /* Assets.xcassets */,
+				8D61DCA91F2B527D009ECF75 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D61DCAC1F2B5351009ECF75 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DCAD1F2B5351009ECF75 /* NotificationController.swift */,
+				8D61DCAE1F2B5351009ECF75 /* PushNotificationPayload.apns */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		8D6204881F18F33100462AA6 /* WKQuizAlerts */ = {
 			isa = PBXGroup;
 			children = (
@@ -944,22 +937,6 @@
 				8D33936B1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift */,
 			);
 			path = DataProvider;
-			sourceTree = "<group>";
-		};
-		8DB653091F13C3F700390255 /* CategoriesInterfaceTable */ = {
-			isa = PBXGroup;
-			children = (
-				8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */,
-			);
-			name = CategoriesInterfaceTable;
-			sourceTree = "<group>";
-		};
-		8DB653121F13D9F600390255 /* InTestInterfaceTable */ = {
-			isa = PBXGroup;
-			children = (
-				8DB653131F13DA1B00390255 /* InTestRowController.swift */,
-			);
-			name = InTestInterfaceTable;
 			sourceTree = "<group>";
 		};
 		8DBE64E81F2A265500CB0968 /* QuizInTest */ = {
@@ -1353,7 +1330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3E11FB1F0A559A004B21D0 /* Assets.xcassets in Resources */,
+				8D61DCAB1F2B52C6009ECF75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1383,6 +1360,7 @@
 				8D61DC911F2B4967009ECF75 /* MainScreenViewModel.swift in Sources */,
 				8D2795E41F0D108800B989FA /* WatchSessionManagerType.swift in Sources */,
 				8D62048B1F18F48C00462AA6 /* WKQuizAlerts.swift in Sources */,
+				8D61DCA51F2B5218009ECF75 /* HistoryRowController.swift in Sources */,
 				8D61DC881F2B4950009ECF75 /* InTestPresenter.swift in Sources */,
 				8D3783571F1370D3001D69A1 /* WKIntefaceControllerExtentions.swift in Sources */,
 				8D61DC951F2B4B93009ECF75 /* HistoryScreenRouter.swift in Sources */,
@@ -1391,17 +1369,16 @@
 				8D2795EC1F0D308F00B989FA /* WatchSessionDataParserType.swift in Sources */,
 				8DBE64E71F2A20AF00CB0968 /* QuizTestQuestion.swift in Sources */,
 				8D61DC7C1F2B4931009ECF75 /* InTestPresenterType.swift in Sources */,
-				8D3E11F91F0A559A004B21D0 /* NotificationController.swift in Sources */,
 				8D61DC411F2B30B3009ECF75 /* QuizTimer.swift in Sources */,
 				8D37835B1F137471001D69A1 /* WKRouter.swift in Sources */,
 				8D61DC7B1F2B492A009ECF75 /* HistoryScreenViewModel.swift in Sources */,
 				8D61DC9C1F2B4BBF009ECF75 /* InTestHistoryViewProtocol.swift in Sources */,
 				8D61DC811F2B4944009ECF75 /* InTestInteractor.swift in Sources */,
+				8D61DCA61F2B5218009ECF75 /* InTestRowController.swift in Sources */,
 				8D61DC861F2B4950009ECF75 /* InTestDataCache.swift in Sources */,
 				8D4E1FD81F0FCA3800F1CC63 /* WatchSessionRequestCollectorType.swift in Sources */,
 				8D61DC841F2B4948009ECF75 /* InTestInteractorDataConvertor.swift in Sources */,
 				8D61DC801F2B493D009ECF75 /* InTestHistoryWireFrame.swift in Sources */,
-				8D37836A1F13A332001D69A1 /* HistoryIntefaceTable.swift in Sources */,
 				8D61DC7E1F2B493D009ECF75 /* InTestHistoryInteractorDataConvertor.swift in Sources */,
 				8D61DC971F2B4BA2009ECF75 /* InTestInteractorInput.swift in Sources */,
 				8D61DC961F2B4B9A009ECF75 /* HistoryScreenViewModelStorage.swift in Sources */,
@@ -1418,13 +1395,10 @@
 				8D058FE71F2A1E750083EC9C /* QuizTestHistoryResult.swift in Sources */,
 				8D058FE41F2A1E750083EC9C /* QuizTestAnswer.swift in Sources */,
 				8D61DC7F1F2B493D009ECF75 /* InTestHistoryPresentor.swift in Sources */,
-				8D3E11F71F0A559A004B21D0 /* ExtensionDelegate.swift in Sources */,
+				8D61DCA41F2B5218009ECF75 /* CategoriesRowController.swift in Sources */,
 				8D4E1FD91F0FCA3A00F1CC63 /* WatchSessionRequestCollector.swift in Sources */,
 				8D61DC8B1F2B4959009ECF75 /* InTestInterfaceControllerSetting.swift in Sources */,
-				8DB6530C1F13C4F700390255 /* CategoriesRowController.swift in Sources */,
 				8D058FE81F2A1E750083EC9C /* QuizPostHistoryAnswerModel.swift in Sources */,
-				8D37834D1F136F42001D69A1 /* HistoryRowController.swift in Sources */,
-				8DB653141F13DA1B00390255 /* InTestRowController.swift in Sources */,
 				8D61DC8F1F2B4967009ECF75 /* MainScreenRouter.swift in Sources */,
 				8D4E1FD71F0FC92F00F1CC63 /* WatchSessionReceiveReplyModule.swift in Sources */,
 				8D13C6721F0D0A1F00BAEE52 /* WatchSessionManager.swift in Sources */,
@@ -1554,7 +1528,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
-				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Info.plist";
+				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -1576,7 +1550,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
-				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Info.plist";
+				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
