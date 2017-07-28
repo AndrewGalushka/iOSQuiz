@@ -91,6 +91,7 @@
 		8D4F468D1EF9761600C60C50 /* QuizSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F468C1EF9761600C60C50 /* QuizSupportFunctions.swift */; };
 		8D5D0ECA1EE16AF500373BFF /* IOSQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D0EC91EE16AF500373BFF /* IOSQuizTests.swift */; };
 		8D5D0ED51EE16AF500373BFF /* IOSQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D0ED41EE16AF500373BFF /* IOSQuizUITests.swift */; };
+		8D61DC411F2B30B3009ECF75 /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE65911F2A3ABB00CB0968 /* QuizTimer.swift */; };
 		8D6204871F18C68B00462AA6 /* MainScreenDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6204851F18C64300462AA6 /* MainScreenDataStorage.swift */; };
 		8D62048B1F18F48C00462AA6 /* WKQuizAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */; };
 		8D62048D1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62048C1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift */; };
@@ -1425,6 +1426,7 @@
 				8D0EBE331F19202C0000BBF4 /* InTestHistoryWireFrame.swift in Sources */,
 				8D0EBE311F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift in Sources */,
 				8D62048D1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift in Sources */,
+				8D61DC411F2B30B3009ECF75 /* QuizTimer.swift in Sources */,
 				8D30FA0A1F175B2500A68E0E /* InTestDataCache.swift in Sources */,
 				8D0EBE291F1916E90000BBF4 /* InTestHistoryPresentor.swift in Sources */,
 				8D37835B1F137471001D69A1 /* WKRouter.swift in Sources */,
