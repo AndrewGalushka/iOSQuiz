@@ -33,12 +33,6 @@
 		8D058FE71F2A1E750083EC9C /* QuizTestHistoryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FCC1F2A1DF50083EC9C /* QuizTestHistoryResult.swift */; };
 		8D058FE81F2A1E750083EC9C /* QuizPostHistoryAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FCE1F2A1DF50083EC9C /* QuizPostHistoryAnswerModel.swift */; };
 		8D058FE91F2A1E750083EC9C /* QuizPostHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FCF1F2A1DF50083EC9C /* QuizPostHistoryModel.swift */; };
-		8D0EBE241F1908820000BBF4 /* HistoryScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE231F1908820000BBF4 /* HistoryScreenRouter.swift */; };
-		8D0EBE261F1916780000BBF4 /* InTestHistoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE251F1916780000BBF4 /* InTestHistoryViewProtocol.swift */; };
-		8D0EBE291F1916E90000BBF4 /* InTestHistoryPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE281F1916E90000BBF4 /* InTestHistoryPresentor.swift */; };
-		8D0EBE2E1F1919C00000BBF4 /* InTestHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE2D1F1919C00000BBF4 /* InTestHistoryInteractor.swift */; };
-		8D0EBE311F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE301F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift */; };
-		8D0EBE331F19202C0000BBF4 /* InTestHistoryWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EBE321F19202C0000BBF4 /* InTestHistoryWireFrame.swift */; };
 		8D13C6711F0CFA8C00BAEE52 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13C6701F0CFA8C00BAEE52 /* WatchSessionManager.swift */; };
 		8D13C6721F0D0A1F00BAEE52 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13C6701F0CFA8C00BAEE52 /* WatchSessionManager.swift */; };
 		8D13C6751F0D0C3600BAEE52 /* WatchSessionIOSReceiveReplyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13C6741F0D0C3600BAEE52 /* WatchSessionIOSReceiveReplyModule.swift */; };
@@ -49,26 +43,12 @@
 		8D2795EC1F0D308F00B989FA /* WatchSessionDataParserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2795EA1F0D2D1E00B989FA /* WatchSessionDataParserType.swift */; };
 		8D2795ED1F0D30D800B989FA /* WatchSessionDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2795E81F0D18ED00B989FA /* WatchSessionDataParser.swift */; };
 		8D2795F01F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2795EF1F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift */; };
-		8D30FA0A1F175B2500A68E0E /* InTestDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30FA081F175B1B00A68E0E /* InTestDataCache.swift */; };
-		8D30FA0D1F17639900A68E0E /* InTestDataCacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30FA0B1F17636B00A68E0E /* InTestDataCacheType.swift */; };
-		8D30FA101F17775800A68E0E /* InTestInterfaceControllerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30FA0E1F17769D00A68E0E /* InTestInterfaceControllerSetting.swift */; };
-		8D30FA141F177F2800A68E0E /* InTestInteractorDataConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30FA121F177ED300A68E0E /* InTestInteractorDataConvertor.swift */; };
 		8D33936C1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33936B1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift */; };
-		8D3557081F16128200B9DED1 /* InTestViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3557061F16126100B9DED1 /* InTestViewProtocol.swift */; };
-		8D3557091F16128D00B9DED1 /* InTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42F22A1F15213D003DAD52 /* InTestPresenter.swift */; };
-		8D35570A1F16129100B9DED1 /* InTestInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3557021F160E9B00B9DED1 /* InTestInteractorInput.swift */; };
-		8D3557111F1629CD00B9DED1 /* InTestInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D35570F1F16266A00B9DED1 /* InTestInteractorOutput.swift */; };
-		8D3557141F162AA800B9DED1 /* InTestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3557121F162A7300B9DED1 /* InTestInteractor.swift */; };
-		8D35571D1F1671DD00B9DED1 /* InTestWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D35571C1F1671DD00B9DED1 /* InTestWireFrame.swift */; };
 		8D37834D1F136F42001D69A1 /* HistoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */; };
-		8D3783531F137081001D69A1 /* HistoryIntefaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783511F137075001D69A1 /* HistoryIntefaceController.swift */; };
 		8D3783571F1370D3001D69A1 /* WKIntefaceControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783551F1370C6001D69A1 /* WKIntefaceControllerExtentions.swift */; };
 		8D37835B1F137471001D69A1 /* WKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783591F1373F6001D69A1 /* WKRouter.swift */; };
-		8D37835E1F1374EA001D69A1 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37835C1F1374E4001D69A1 /* MainScreenViewModel.swift */; };
 		8D3783601F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */; };
 		8D3783611F1375C1001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */; };
-		8D3783641F138462001D69A1 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783621F138455001D69A1 /* MainScreenRouter.swift */; };
-		8D3783681F139220001D69A1 /* HistoryScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783651F138BFC001D69A1 /* HistoryScreenViewModel.swift */; };
 		8D3783691F1392E2001D69A1 /* QuizSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F468C1EF9761600C60C50 /* QuizSupportFunctions.swift */; };
 		8D37836A1F13A332001D69A1 /* HistoryIntefaceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */; };
 		8D3E11EE1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -76,8 +56,6 @@
 		8D3E11F91F0A559A004B21D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E11F81F0A559A004B21D0 /* NotificationController.swift */; };
 		8D3E11FB1F0A559A004B21D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */; };
 		8D3E11FF1F0A559A004B21D0 /* IOSQuizWatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8D3E11E11F0A559A004B21D0 /* IOSQuizWatchOS.app */; };
-		8D3E120F1F0A798A004B21D0 /* MainScreenInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E120E1F0A798A004B21D0 /* MainScreenInterfaceController.swift */; };
-		8D4A7E8B1F1CA35D00648A68 /* InTestPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A7E8A1F1CA35D00648A68 /* InTestPresenterType.swift */; };
 		8D4E1FCA1F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FC91F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift */; };
 		8D4E1FCC1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FCB1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift */; };
 		8D4E1FCE1F0FB7B600F1CC63 /* WatchSessionRequestCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FCD1F0FB7B600F1CC63 /* WatchSessionRequestCollector.swift */; };
@@ -90,14 +68,36 @@
 		8D4E1FDA1F0FCA4800F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E1FCB1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift */; };
 		8D4F468D1EF9761600C60C50 /* QuizSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F468C1EF9761600C60C50 /* QuizSupportFunctions.swift */; };
 		8D61DC411F2B30B3009ECF75 /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE65911F2A3ABB00CB0968 /* QuizTimer.swift */; };
-		8D6204871F18C68B00462AA6 /* MainScreenDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6204851F18C64300462AA6 /* MainScreenDataStorage.swift */; };
+		8D61DC7A1F2B492A009ECF75 /* HistoryIntefaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC4B1F2B491B009ECF75 /* HistoryIntefaceController.swift */; };
+		8D61DC7B1F2B492A009ECF75 /* HistoryScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC4D1F2B491B009ECF75 /* HistoryScreenViewModel.swift */; };
+		8D61DC7C1F2B4931009ECF75 /* InTestPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC4F1F2B491B009ECF75 /* InTestPresenterType.swift */; };
+		8D61DC7D1F2B493D009ECF75 /* InTestHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC521F2B491B009ECF75 /* InTestHistoryInteractor.swift */; };
+		8D61DC7E1F2B493D009ECF75 /* InTestHistoryInteractorDataConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC541F2B491B009ECF75 /* InTestHistoryInteractorDataConvertor.swift */; };
+		8D61DC7F1F2B493D009ECF75 /* InTestHistoryPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC561F2B491B009ECF75 /* InTestHistoryPresentor.swift */; };
+		8D61DC801F2B493D009ECF75 /* InTestHistoryWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC581F2B491B009ECF75 /* InTestHistoryWireFrame.swift */; };
+		8D61DC811F2B4944009ECF75 /* InTestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC5B1F2B491B009ECF75 /* InTestInteractor.swift */; };
+		8D61DC831F2B4944009ECF75 /* InTestInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC5D1F2B491B009ECF75 /* InTestInteractorOutput.swift */; };
+		8D61DC841F2B4948009ECF75 /* InTestInteractorDataConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC5F1F2B491B009ECF75 /* InTestInteractorDataConvertor.swift */; };
+		8D61DC851F2B4950009ECF75 /* InTestDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC611F2B491B009ECF75 /* InTestDataStorage.swift */; };
+		8D61DC861F2B4950009ECF75 /* InTestDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC631F2B491B009ECF75 /* InTestDataCache.swift */; };
+		8D61DC871F2B4950009ECF75 /* InTestDataCacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC641F2B491B009ECF75 /* InTestDataCacheType.swift */; };
+		8D61DC881F2B4950009ECF75 /* InTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC661F2B491B009ECF75 /* InTestPresenter.swift */; };
+		8D61DC891F2B4950009ECF75 /* InTestWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC681F2B491B009ECF75 /* InTestWireFrame.swift */; };
+		8D61DC8A1F2B4959009ECF75 /* InTestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6A1F2B491B009ECF75 /* InTestInterfaceController.swift */; };
+		8D61DC8B1F2B4959009ECF75 /* InTestInterfaceControllerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6B1F2B491B009ECF75 /* InTestInterfaceControllerSetting.swift */; };
+		8D61DC8E1F2B4961009ECF75 /* MainScreenDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC711F2B491B009ECF75 /* MainScreenDataStorage.swift */; };
+		8D61DC8F1F2B4967009ECF75 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC731F2B491B009ECF75 /* MainScreenRouter.swift */; };
+		8D61DC901F2B4967009ECF75 /* MainScreenInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC751F2B491B009ECF75 /* MainScreenInterfaceController.swift */; };
+		8D61DC911F2B4967009ECF75 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC771F2B491B009ECF75 /* MainScreenViewModel.swift */; };
+		8D61DC951F2B4B93009ECF75 /* HistoryScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC921F2B4A67009ECF75 /* HistoryScreenRouter.swift */; };
+		8D61DC961F2B4B9A009ECF75 /* HistoryScreenViewModelStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC491F2B491B009ECF75 /* HistoryScreenViewModelStorage.swift */; };
+		8D61DC971F2B4BA2009ECF75 /* InTestInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC5C1F2B491B009ECF75 /* InTestInteractorInput.swift */; };
+		8D61DC9C1F2B4BBF009ECF75 /* InTestHistoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6D1F2B491B009ECF75 /* InTestHistoryViewProtocol.swift */; };
+		8D61DC9F1F2B50BC009ECF75 /* InTestViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61DC6E1F2B491B009ECF75 /* InTestViewProtocol.swift */; };
 		8D62048B1F18F48C00462AA6 /* WKQuizAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */; };
-		8D62048D1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62048C1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift */; };
 		8D869D9C1F0E402500369C86 /* WatchSessionReplyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */; };
 		8D869D9D1F0E402900369C86 /* WatchSessionReplyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */; };
-		8DAC7F7C1F17C0D800F56BE8 /* InTestDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC7F7B1F17C0D800F56BE8 /* InTestDataStorage.swift */; };
 		8DB6530C1F13C4F700390255 /* CategoriesRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */; };
-		8DB6530F1F13CB9700390255 /* InTestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6530E1F13CB9700390255 /* InTestInterfaceController.swift */; };
 		8DB653141F13DA1B00390255 /* InTestRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB653131F13DA1B00390255 /* InTestRowController.swift */; };
 		8DBE64E61F2A20AE00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
 		8DBE64E71F2A20AF00CB0968 /* QuizTestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D058FD21F2A1DF50083EC9C /* QuizTestQuestion.swift */; };
@@ -216,46 +216,24 @@
 		8D058FD81F2A1E4F0083EC9C /* QuizHistoryTableViewCellSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHistoryTableViewCellSettings.swift; sourceTree = "<group>"; };
 		8D058FD91F2A1E4F0083EC9C /* QuizPickerTableViewBaseCellSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPickerTableViewBaseCellSettings.swift; sourceTree = "<group>"; };
 		8D058FDA1F2A1E4F0083EC9C /* QuizPickerTableViewHistoryCellSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPickerTableViewHistoryCellSettings.swift; sourceTree = "<group>"; };
-		8D0EBE231F1908820000BBF4 /* HistoryScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenRouter.swift; sourceTree = "<group>"; };
-		8D0EBE251F1916780000BBF4 /* InTestHistoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryViewProtocol.swift; sourceTree = "<group>"; };
-		8D0EBE281F1916E90000BBF4 /* InTestHistoryPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryPresentor.swift; sourceTree = "<group>"; };
-		8D0EBE2D1F1919C00000BBF4 /* InTestHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryInteractor.swift; sourceTree = "<group>"; };
-		8D0EBE301F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryInteractorDataConvertor.swift; sourceTree = "<group>"; };
-		8D0EBE321F19202C0000BBF4 /* InTestHistoryWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryWireFrame.swift; sourceTree = "<group>"; };
 		8D13C6701F0CFA8C00BAEE52 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
 		8D13C6741F0D0C3600BAEE52 /* WatchSessionIOSReceiveReplyModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionIOSReceiveReplyModule.swift; sourceTree = "<group>"; };
 		8D13C6761F0D0C6900BAEE52 /* WatchSessionManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManagerType.swift; sourceTree = "<group>"; };
 		8D2795E81F0D18ED00B989FA /* WatchSessionDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionDataParser.swift; sourceTree = "<group>"; };
 		8D2795EA1F0D2D1E00B989FA /* WatchSessionDataParserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionDataParserType.swift; sourceTree = "<group>"; };
 		8D2795EF1F0D436800B989FA /* WatchSessionIOSReplyDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionIOSReplyDataProvider.swift; sourceTree = "<group>"; };
-		8D30FA081F175B1B00A68E0E /* InTestDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataCache.swift; sourceTree = "<group>"; };
-		8D30FA0B1F17636B00A68E0E /* InTestDataCacheType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataCacheType.swift; sourceTree = "<group>"; };
-		8D30FA0E1F17769D00A68E0E /* InTestInterfaceControllerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInterfaceControllerSetting.swift; sourceTree = "<group>"; };
-		8D30FA121F177ED300A68E0E /* InTestInteractorDataConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorDataConvertor.swift; sourceTree = "<group>"; };
 		8D33936B1F0E226700FE3060 /* WatchSessionIOSReplyDataProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionIOSReplyDataProviderType.swift; sourceTree = "<group>"; };
-		8D3557021F160E9B00B9DED1 /* InTestInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorInput.swift; sourceTree = "<group>"; };
-		8D3557061F16126100B9DED1 /* InTestViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestViewProtocol.swift; sourceTree = "<group>"; };
-		8D35570F1F16266A00B9DED1 /* InTestInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorOutput.swift; sourceTree = "<group>"; };
-		8D3557121F162A7300B9DED1 /* InTestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractor.swift; sourceTree = "<group>"; };
-		8D35571C1F1671DD00B9DED1 /* InTestWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestWireFrame.swift; sourceTree = "<group>"; };
 		8D3783471F136893001D69A1 /* HistoryIntefaceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIntefaceTable.swift; sourceTree = "<group>"; };
 		8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowController.swift; sourceTree = "<group>"; };
-		8D3783511F137075001D69A1 /* HistoryIntefaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIntefaceController.swift; sourceTree = "<group>"; };
 		8D3783551F1370C6001D69A1 /* WKIntefaceControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKIntefaceControllerExtentions.swift; sourceTree = "<group>"; };
 		8D3783591F1373F6001D69A1 /* WKRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKRouter.swift; sourceTree = "<group>"; };
-		8D37835C1F1374E4001D69A1 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
 		8D37835F1F137574001D69A1 /* WatchSessionReceiveReplyModuleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModuleType.swift; sourceTree = "<group>"; };
-		8D3783621F138455001D69A1 /* MainScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
-		8D3783651F138BFC001D69A1 /* HistoryScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModel.swift; sourceTree = "<group>"; };
 		8D3E11E11F0A559A004B21D0 /* IOSQuizWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSQuizWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3E11ED1F0A559A004B21D0 /* IOSQuizWatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IOSQuizWatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3E11F31F0A559A004B21D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8D3E11F81F0A559A004B21D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D3E120E1F0A798A004B21D0 /* MainScreenInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInterfaceController.swift; sourceTree = "<group>"; tabWidth = 4; };
-		8D42F22A1F15213D003DAD52 /* InTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenter.swift; sourceTree = "<group>"; };
-		8D4A7E8A1F1CA35D00648A68 /* InTestPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenterType.swift; sourceTree = "<group>"; };
 		8D4E1FC91F0FB69500F1CC63 /* WatchSessionReceiveReplyModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModule.swift; sourceTree = "<group>"; };
 		8D4E1FCB1F0FB73700F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReceiveReplyModuleBaseType.swift; sourceTree = "<group>"; };
 		8D4E1FCD1F0FB7B600F1CC63 /* WatchSessionRequestCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionRequestCollector.swift; sourceTree = "<group>"; };
@@ -268,14 +246,36 @@
 		8D5D0ED41EE16AF500373BFF /* IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizUITests.swift; sourceTree = "<group>"; };
 		8D5D0ED61EE16AF500373BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D61DC421F2B320F009ECF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D6204851F18C64300462AA6 /* MainScreenDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenDataStorage.swift; sourceTree = "<group>"; };
+		8D61DC491F2B491B009ECF75 /* HistoryScreenViewModelStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModelStorage.swift; sourceTree = "<group>"; };
+		8D61DC4B1F2B491B009ECF75 /* HistoryIntefaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIntefaceController.swift; sourceTree = "<group>"; };
+		8D61DC4D1F2B491B009ECF75 /* HistoryScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModel.swift; sourceTree = "<group>"; };
+		8D61DC4F1F2B491B009ECF75 /* InTestPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenterType.swift; sourceTree = "<group>"; };
+		8D61DC521F2B491B009ECF75 /* InTestHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryInteractor.swift; sourceTree = "<group>"; };
+		8D61DC541F2B491B009ECF75 /* InTestHistoryInteractorDataConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryInteractorDataConvertor.swift; sourceTree = "<group>"; };
+		8D61DC561F2B491B009ECF75 /* InTestHistoryPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryPresentor.swift; sourceTree = "<group>"; };
+		8D61DC581F2B491B009ECF75 /* InTestHistoryWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryWireFrame.swift; sourceTree = "<group>"; };
+		8D61DC5B1F2B491B009ECF75 /* InTestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractor.swift; sourceTree = "<group>"; };
+		8D61DC5C1F2B491B009ECF75 /* InTestInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorInput.swift; sourceTree = "<group>"; };
+		8D61DC5D1F2B491B009ECF75 /* InTestInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorOutput.swift; sourceTree = "<group>"; };
+		8D61DC5F1F2B491B009ECF75 /* InTestInteractorDataConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInteractorDataConvertor.swift; sourceTree = "<group>"; };
+		8D61DC611F2B491B009ECF75 /* InTestDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataStorage.swift; sourceTree = "<group>"; };
+		8D61DC631F2B491B009ECF75 /* InTestDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataCache.swift; sourceTree = "<group>"; };
+		8D61DC641F2B491B009ECF75 /* InTestDataCacheType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataCacheType.swift; sourceTree = "<group>"; };
+		8D61DC661F2B491B009ECF75 /* InTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenter.swift; sourceTree = "<group>"; };
+		8D61DC681F2B491B009ECF75 /* InTestWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestWireFrame.swift; sourceTree = "<group>"; };
+		8D61DC6A1F2B491B009ECF75 /* InTestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInterfaceController.swift; sourceTree = "<group>"; };
+		8D61DC6B1F2B491B009ECF75 /* InTestInterfaceControllerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInterfaceControllerSetting.swift; sourceTree = "<group>"; };
+		8D61DC6D1F2B491B009ECF75 /* InTestHistoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestHistoryViewProtocol.swift; sourceTree = "<group>"; };
+		8D61DC6E1F2B491B009ECF75 /* InTestViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestViewProtocol.swift; sourceTree = "<group>"; };
+		8D61DC711F2B491B009ECF75 /* MainScreenDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenDataStorage.swift; sourceTree = "<group>"; };
+		8D61DC731F2B491B009ECF75 /* MainScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
+		8D61DC751F2B491B009ECF75 /* MainScreenInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInterfaceController.swift; sourceTree = "<group>"; };
+		8D61DC771F2B491B009ECF75 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		8D61DC921F2B4A67009ECF75 /* HistoryScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenRouter.swift; sourceTree = "<group>"; };
 		8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKQuizAlerts.swift; sourceTree = "<group>"; };
-		8D62048C1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModelStorage.swift; sourceTree = "<group>"; };
 		8D65BA0A1F056277002D7BD5 /* IOSQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSQuiz.entitlements; sourceTree = "<group>"; };
 		8D869D9B1F0E402500369C86 /* WatchSessionReplyResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionReplyResult.swift; sourceTree = "<group>"; };
-		8DAC7F7B1F17C0D800F56BE8 /* InTestDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestDataStorage.swift; sourceTree = "<group>"; };
 		8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRowController.swift; sourceTree = "<group>"; };
-		8DB6530E1F13CB9700390255 /* InTestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestInterfaceController.swift; sourceTree = "<group>"; };
 		8DB653131F13DA1B00390255 /* InTestRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestRowController.swift; sourceTree = "<group>"; };
 		8DBE64EA1F2A265500CB0968 /* QuizPageViewControllerHistoryVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerHistoryVCFactoryModule.swift; sourceTree = "<group>"; };
 		8DBE64EB1F2A265500CB0968 /* QuizPageViewControllerTestVCFactoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewControllerTestVCFactoryModule.swift; sourceTree = "<group>"; };
@@ -479,58 +479,6 @@
 			path = "Table\\CollectionViewCellSettings";
 			sourceTree = "<group>";
 		};
-		8D0EBE271F1916B50000BBF4 /* TestHistoryViperModule */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE341F1920410000BBF4 /* WireFrame */,
-				8D0EBE2F1F191B400000BBF4 /* InTestHistoryInteractorDataConvertor */,
-				8D0EBE2C1F1918C80000BBF4 /* Interactor */,
-				8D0EBE2B1F1918B70000BBF4 /* Presentor */,
-			);
-			name = TestHistoryViperModule;
-			sourceTree = "<group>";
-		};
-		8D0EBE2A1F1918390000BBF4 /* ViperViews */ = {
-			isa = PBXGroup;
-			children = (
-				8D3557061F16126100B9DED1 /* InTestViewProtocol.swift */,
-				8D0EBE251F1916780000BBF4 /* InTestHistoryViewProtocol.swift */,
-			);
-			name = ViperViews;
-			sourceTree = "<group>";
-		};
-		8D0EBE2B1F1918B70000BBF4 /* Presentor */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE281F1916E90000BBF4 /* InTestHistoryPresentor.swift */,
-			);
-			name = Presentor;
-			sourceTree = "<group>";
-		};
-		8D0EBE2C1F1918C80000BBF4 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE2D1F1919C00000BBF4 /* InTestHistoryInteractor.swift */,
-			);
-			name = Interactor;
-			sourceTree = "<group>";
-		};
-		8D0EBE2F1F191B400000BBF4 /* InTestHistoryInteractorDataConvertor */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE301F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift */,
-			);
-			name = InTestHistoryInteractorDataConvertor;
-			sourceTree = "<group>";
-		};
-		8D0EBE341F1920410000BBF4 /* WireFrame */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE321F19202C0000BBF4 /* InTestHistoryWireFrame.swift */,
-			);
-			name = WireFrame;
-			sourceTree = "<group>";
-		};
 		8D2795E51F0D173200B989FA /* SessionManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -558,23 +506,6 @@
 			path = SessionReceivedMessageParser;
 			sourceTree = "<group>";
 		};
-		8D30FA071F1759E500A68E0E /* InTestDataСache */ = {
-			isa = PBXGroup;
-			children = (
-				8D30FA081F175B1B00A68E0E /* InTestDataCache.swift */,
-				8D30FA0B1F17636B00A68E0E /* InTestDataCacheType.swift */,
-			);
-			name = "InTestDataСache";
-			sourceTree = "<group>";
-		};
-		8D30FA111F177E8F00A68E0E /* InteractorDataConvertor */ = {
-			isa = PBXGroup;
-			children = (
-				8D30FA121F177ED300A68E0E /* InTestInteractorDataConvertor.swift */,
-			);
-			name = InteractorDataConvertor;
-			sourceTree = "<group>";
-		};
 		8D33DA871F0CD1D500E512DA /* WatchSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,55 +515,6 @@
 			path = WatchSession;
 			sourceTree = "<group>";
 		};
-		8D3556F71F160E5400B9DED1 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				8D3557121F162A7300B9DED1 /* InTestInteractor.swift */,
-				8D3557021F160E9B00B9DED1 /* InTestInteractorInput.swift */,
-				8D35570F1F16266A00B9DED1 /* InTestInteractorOutput.swift */,
-			);
-			name = Interactor;
-			sourceTree = "<group>";
-		};
-		8D3557041F160EB300B9DED1 /* TestViperModule */ = {
-			isa = PBXGroup;
-			children = (
-				8D35571B1F16719A00B9DED1 /* Wireframe */,
-				8DAC7F7A1F17C0BB00F56BE8 /* InTestDataStorage */,
-				8D30FA111F177E8F00A68E0E /* InteractorDataConvertor */,
-				8D3557051F160F0900B9DED1 /* Presenter */,
-				8D3556F71F160E5400B9DED1 /* Interactor */,
-				8D30FA071F1759E500A68E0E /* InTestDataСache */,
-			);
-			name = TestViperModule;
-			sourceTree = "<group>";
-		};
-		8D3557051F160F0900B9DED1 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				8D42F22A1F15213D003DAD52 /* InTestPresenter.swift */,
-			);
-			name = Presenter;
-			sourceTree = "<group>";
-		};
-		8D3557181F164A5A00B9DED1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EBE2A1F1918390000BBF4 /* ViperViews */,
-				8DB6530E1F13CB9700390255 /* InTestInterfaceController.swift */,
-				8D30FA0E1F17769D00A68E0E /* InTestInterfaceControllerSetting.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		8D35571B1F16719A00B9DED1 /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				8D35571C1F1671DD00B9DED1 /* InTestWireFrame.swift */,
-			);
-			name = Wireframe;
-			sourceTree = "<group>";
-		};
 		8D3783461F13681C001D69A1 /* HistoryInterfaceTable */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,38 +522,6 @@
 				8D37834B1F136DFD001D69A1 /* HistoryRowController.swift */,
 			);
 			name = HistoryInterfaceTable;
-			sourceTree = "<group>";
-		};
-		8D37834E1F137032001D69A1 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				8DB6530D1F13CB2C00390255 /* InTest */,
-				8D37834F1F137043001D69A1 /* Main */,
-				8D3783501F13704D001D69A1 /* History */,
-			);
-			name = Screens;
-			sourceTree = "<group>";
-		};
-		8D37834F1F137043001D69A1 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				8D3E120E1F0A798A004B21D0 /* MainScreenInterfaceController.swift */,
-				8D37835C1F1374E4001D69A1 /* MainScreenViewModel.swift */,
-				8D6204851F18C64300462AA6 /* MainScreenDataStorage.swift */,
-				8D3783621F138455001D69A1 /* MainScreenRouter.swift */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		8D3783501F13704D001D69A1 /* History */ = {
-			isa = PBXGroup;
-			children = (
-				8D3783511F137075001D69A1 /* HistoryIntefaceController.swift */,
-				8D3783651F138BFC001D69A1 /* HistoryScreenViewModel.swift */,
-				8D62048C1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift */,
-				8D0EBE231F1908820000BBF4 /* HistoryScreenRouter.swift */,
-			);
-			name = History;
 			sourceTree = "<group>";
 		};
 		8D3783541F1370AA001D69A1 /* Extensions */ = {
@@ -708,7 +558,7 @@
 				8D6204881F18F33100462AA6 /* WKQuizAlerts */,
 				8D3783541F1370AA001D69A1 /* Extensions */,
 				8D3783581F1373DD001D69A1 /* WKRouterType */,
-				8D37834E1F137032001D69A1 /* Screens */,
+				8D61DC441F2B491B009ECF75 /* Screens */,
 				8DB653091F13C3F700390255 /* CategoriesInterfaceTable */,
 				8D3783461F13681C001D69A1 /* HistoryInterfaceTable */,
 				8DB653121F13D9F600390255 /* InTestInterfaceTable */,
@@ -835,6 +685,239 @@
 			path = IOSQuizUITests;
 			sourceTree = "<group>";
 		};
+		8D61DC441F2B491B009ECF75 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC451F2B491B009ECF75 /* History */,
+				8D61DC4E1F2B491B009ECF75 /* InTest */,
+				8D61DC6F1F2B491B009ECF75 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8D61DC451F2B491B009ECF75 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC461F2B491B009ECF75 /* Router */,
+				8D61DC481F2B491B009ECF75 /* Storage */,
+				8D61DC4A1F2B491B009ECF75 /* View */,
+				8D61DC4C1F2B491B009ECF75 /* ViewModel */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8D61DC461F2B491B009ECF75 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC921F2B4A67009ECF75 /* HistoryScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8D61DC481F2B491B009ECF75 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC491F2B491B009ECF75 /* HistoryScreenViewModelStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		8D61DC4A1F2B491B009ECF75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC4B1F2B491B009ECF75 /* HistoryIntefaceController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D61DC4C1F2B491B009ECF75 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC4D1F2B491B009ECF75 /* HistoryScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8D61DC4E1F2B491B009ECF75 /* InTest */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC4F1F2B491B009ECF75 /* InTestPresenterType.swift */,
+				8D61DC501F2B491B009ECF75 /* TestHistoryViperModule */,
+				8D61DC591F2B491B009ECF75 /* TestViperModule */,
+				8D61DC691F2B491B009ECF75 /* View */,
+			);
+			path = InTest;
+			sourceTree = "<group>";
+		};
+		8D61DC501F2B491B009ECF75 /* TestHistoryViperModule */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC511F2B491B009ECF75 /* Interactor */,
+				8D61DC531F2B491B009ECF75 /* InTestHistoryInteractorDataConvertor */,
+				8D61DC551F2B491B009ECF75 /* Presentor */,
+				8D61DC571F2B491B009ECF75 /* WireFrame */,
+			);
+			path = TestHistoryViperModule;
+			sourceTree = "<group>";
+		};
+		8D61DC511F2B491B009ECF75 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC521F2B491B009ECF75 /* InTestHistoryInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8D61DC531F2B491B009ECF75 /* InTestHistoryInteractorDataConvertor */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC541F2B491B009ECF75 /* InTestHistoryInteractorDataConvertor.swift */,
+			);
+			path = InTestHistoryInteractorDataConvertor;
+			sourceTree = "<group>";
+		};
+		8D61DC551F2B491B009ECF75 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC561F2B491B009ECF75 /* InTestHistoryPresentor.swift */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		8D61DC571F2B491B009ECF75 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC581F2B491B009ECF75 /* InTestHistoryWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		8D61DC591F2B491B009ECF75 /* TestViperModule */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC5A1F2B491B009ECF75 /* Interactor */,
+				8D61DC5E1F2B491B009ECF75 /* InteractorDataConvertor */,
+				8D61DC601F2B491B009ECF75 /* InTestDataStorage */,
+				8D61DC621F2B491B009ECF75 /* InTestDataСache */,
+				8D61DC651F2B491B009ECF75 /* Presenter */,
+				8D61DC671F2B491B009ECF75 /* Wireframe */,
+			);
+			path = TestViperModule;
+			sourceTree = "<group>";
+		};
+		8D61DC5A1F2B491B009ECF75 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC5B1F2B491B009ECF75 /* InTestInteractor.swift */,
+				8D61DC5C1F2B491B009ECF75 /* InTestInteractorInput.swift */,
+				8D61DC5D1F2B491B009ECF75 /* InTestInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8D61DC5E1F2B491B009ECF75 /* InteractorDataConvertor */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC5F1F2B491B009ECF75 /* InTestInteractorDataConvertor.swift */,
+			);
+			path = InteractorDataConvertor;
+			sourceTree = "<group>";
+		};
+		8D61DC601F2B491B009ECF75 /* InTestDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC611F2B491B009ECF75 /* InTestDataStorage.swift */,
+			);
+			path = InTestDataStorage;
+			sourceTree = "<group>";
+		};
+		8D61DC621F2B491B009ECF75 /* InTestDataСache */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC631F2B491B009ECF75 /* InTestDataCache.swift */,
+				8D61DC641F2B491B009ECF75 /* InTestDataCacheType.swift */,
+			);
+			path = "InTestDataСache";
+			sourceTree = "<group>";
+		};
+		8D61DC651F2B491B009ECF75 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC661F2B491B009ECF75 /* InTestPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8D61DC671F2B491B009ECF75 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC681F2B491B009ECF75 /* InTestWireFrame.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		8D61DC691F2B491B009ECF75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC6A1F2B491B009ECF75 /* InTestInterfaceController.swift */,
+				8D61DC6B1F2B491B009ECF75 /* InTestInterfaceControllerSetting.swift */,
+				8D61DC6C1F2B491B009ECF75 /* ViperViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D61DC6C1F2B491B009ECF75 /* ViperViews */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC6D1F2B491B009ECF75 /* InTestHistoryViewProtocol.swift */,
+				8D61DC6E1F2B491B009ECF75 /* InTestViewProtocol.swift */,
+			);
+			path = ViperViews;
+			sourceTree = "<group>";
+		};
+		8D61DC6F1F2B491B009ECF75 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC701F2B491B009ECF75 /* DataStorage */,
+				8D61DC721F2B491B009ECF75 /* Router */,
+				8D61DC741F2B491B009ECF75 /* View */,
+				8D61DC761F2B491B009ECF75 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8D61DC701F2B491B009ECF75 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC711F2B491B009ECF75 /* MainScreenDataStorage.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		8D61DC721F2B491B009ECF75 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC731F2B491B009ECF75 /* MainScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8D61DC741F2B491B009ECF75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC751F2B491B009ECF75 /* MainScreenInterfaceController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D61DC761F2B491B009ECF75 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D61DC771F2B491B009ECF75 /* MainScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		8D6204881F18F33100462AA6 /* WKQuizAlerts */ = {
 			isa = PBXGroup;
 			children = (
@@ -863,31 +946,12 @@
 			path = DataProvider;
 			sourceTree = "<group>";
 		};
-		8DAC7F7A1F17C0BB00F56BE8 /* InTestDataStorage */ = {
-			isa = PBXGroup;
-			children = (
-				8DAC7F7B1F17C0D800F56BE8 /* InTestDataStorage.swift */,
-			);
-			name = InTestDataStorage;
-			sourceTree = "<group>";
-		};
 		8DB653091F13C3F700390255 /* CategoriesInterfaceTable */ = {
 			isa = PBXGroup;
 			children = (
 				8DB6530A1F13C44D00390255 /* CategoriesRowController.swift */,
 			);
 			name = CategoriesInterfaceTable;
-			sourceTree = "<group>";
-		};
-		8DB6530D1F13CB2C00390255 /* InTest */ = {
-			isa = PBXGroup;
-			children = (
-				8D4A7E8A1F1CA35D00648A68 /* InTestPresenterType.swift */,
-				8D3557181F164A5A00B9DED1 /* View */,
-				8D0EBE271F1916B50000BBF4 /* TestHistoryViperModule */,
-				8D3557041F160EB300B9DED1 /* TestViperModule */,
-			);
-			name = InTest;
 			sourceTree = "<group>";
 		};
 		8DB653121F13D9F600390255 /* InTestInterfaceTable */ = {
@@ -1315,61 +1379,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D61DC9F1F2B50BC009ECF75 /* InTestViewProtocol.swift in Sources */,
+				8D61DC911F2B4967009ECF75 /* MainScreenViewModel.swift in Sources */,
 				8D2795E41F0D108800B989FA /* WatchSessionManagerType.swift in Sources */,
 				8D62048B1F18F48C00462AA6 /* WKQuizAlerts.swift in Sources */,
+				8D61DC881F2B4950009ECF75 /* InTestPresenter.swift in Sources */,
 				8D3783571F1370D3001D69A1 /* WKIntefaceControllerExtentions.swift in Sources */,
+				8D61DC951F2B4B93009ECF75 /* HistoryScreenRouter.swift in Sources */,
+				8D61DC891F2B4950009ECF75 /* InTestWireFrame.swift in Sources */,
+				8D61DC8A1F2B4959009ECF75 /* InTestInterfaceController.swift in Sources */,
 				8D2795EC1F0D308F00B989FA /* WatchSessionDataParserType.swift in Sources */,
 				8DBE64E71F2A20AF00CB0968 /* QuizTestQuestion.swift in Sources */,
+				8D61DC7C1F2B4931009ECF75 /* InTestPresenterType.swift in Sources */,
 				8D3E11F91F0A559A004B21D0 /* NotificationController.swift in Sources */,
-				8D4A7E8B1F1CA35D00648A68 /* InTestPresenterType.swift in Sources */,
-				8D30FA0D1F17639900A68E0E /* InTestDataCacheType.swift in Sources */,
-				8D0EBE331F19202C0000BBF4 /* InTestHistoryWireFrame.swift in Sources */,
-				8D0EBE311F191B6F0000BBF4 /* InTestHistoryInteractorDataConvertor.swift in Sources */,
-				8D62048D1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift in Sources */,
 				8D61DC411F2B30B3009ECF75 /* QuizTimer.swift in Sources */,
-				8D30FA0A1F175B2500A68E0E /* InTestDataCache.swift in Sources */,
-				8D0EBE291F1916E90000BBF4 /* InTestHistoryPresentor.swift in Sources */,
 				8D37835B1F137471001D69A1 /* WKRouter.swift in Sources */,
+				8D61DC7B1F2B492A009ECF75 /* HistoryScreenViewModel.swift in Sources */,
+				8D61DC9C1F2B4BBF009ECF75 /* InTestHistoryViewProtocol.swift in Sources */,
+				8D61DC811F2B4944009ECF75 /* InTestInteractor.swift in Sources */,
+				8D61DC861F2B4950009ECF75 /* InTestDataCache.swift in Sources */,
 				8D4E1FD81F0FCA3800F1CC63 /* WatchSessionRequestCollectorType.swift in Sources */,
-				8D30FA101F17775800A68E0E /* InTestInterfaceControllerSetting.swift in Sources */,
+				8D61DC841F2B4948009ECF75 /* InTestInteractorDataConvertor.swift in Sources */,
+				8D61DC801F2B493D009ECF75 /* InTestHistoryWireFrame.swift in Sources */,
 				8D37836A1F13A332001D69A1 /* HistoryIntefaceTable.swift in Sources */,
+				8D61DC7E1F2B493D009ECF75 /* InTestHistoryInteractorDataConvertor.swift in Sources */,
+				8D61DC971F2B4BA2009ECF75 /* InTestInteractorInput.swift in Sources */,
+				8D61DC961F2B4B9A009ECF75 /* HistoryScreenViewModelStorage.swift in Sources */,
+				8D61DC7D1F2B493D009ECF75 /* InTestHistoryInteractor.swift in Sources */,
 				8D869D9D1F0E402900369C86 /* WatchSessionReplyResult.swift in Sources */,
-				8DB6530F1F13CB9700390255 /* InTestInterfaceController.swift in Sources */,
-				8D3557141F162AA800B9DED1 /* InTestInteractor.swift in Sources */,
-				8D0EBE261F1916780000BBF4 /* InTestHistoryViewProtocol.swift in Sources */,
-				8D0EBE2E1F1919C00000BBF4 /* InTestHistoryInteractor.swift in Sources */,
 				8D058FE91F2A1E750083EC9C /* QuizPostHistoryModel.swift in Sources */,
 				8D4E1FD61F0FC4E700F1CC63 /* WatchSessionDictionaryKeys.swift in Sources */,
-				8D3783681F139220001D69A1 /* HistoryScreenViewModel.swift in Sources */,
+				8D61DC7A1F2B492A009ECF75 /* HistoryIntefaceController.swift in Sources */,
 				8D3783611F1375C1001D69A1 /* WatchSessionReceiveReplyModuleType.swift in Sources */,
 				8D3783691F1392E2001D69A1 /* QuizSupportFunctions.swift in Sources */,
 				8D058FE51F2A1E750083EC9C /* QuizTestCategory.swift in Sources */,
-				8DAC7F7C1F17C0D800F56BE8 /* InTestDataStorage.swift in Sources */,
+				8D61DC901F2B4967009ECF75 /* MainScreenInterfaceController.swift in Sources */,
+				8D61DC851F2B4950009ECF75 /* InTestDataStorage.swift in Sources */,
 				8D058FE71F2A1E750083EC9C /* QuizTestHistoryResult.swift in Sources */,
 				8D058FE41F2A1E750083EC9C /* QuizTestAnswer.swift in Sources */,
-				8D3557091F16128D00B9DED1 /* InTestPresenter.swift in Sources */,
+				8D61DC7F1F2B493D009ECF75 /* InTestHistoryPresentor.swift in Sources */,
 				8D3E11F71F0A559A004B21D0 /* ExtensionDelegate.swift in Sources */,
-				8D6204871F18C68B00462AA6 /* MainScreenDataStorage.swift in Sources */,
 				8D4E1FD91F0FCA3A00F1CC63 /* WatchSessionRequestCollector.swift in Sources */,
-				8D3783531F137081001D69A1 /* HistoryIntefaceController.swift in Sources */,
+				8D61DC8B1F2B4959009ECF75 /* InTestInterfaceControllerSetting.swift in Sources */,
 				8DB6530C1F13C4F700390255 /* CategoriesRowController.swift in Sources */,
 				8D058FE81F2A1E750083EC9C /* QuizPostHistoryAnswerModel.swift in Sources */,
 				8D37834D1F136F42001D69A1 /* HistoryRowController.swift in Sources */,
-				8D3E120F1F0A798A004B21D0 /* MainScreenInterfaceController.swift in Sources */,
 				8DB653141F13DA1B00390255 /* InTestRowController.swift in Sources */,
+				8D61DC8F1F2B4967009ECF75 /* MainScreenRouter.swift in Sources */,
 				8D4E1FD71F0FC92F00F1CC63 /* WatchSessionReceiveReplyModule.swift in Sources */,
 				8D13C6721F0D0A1F00BAEE52 /* WatchSessionManager.swift in Sources */,
-				8D3557111F1629CD00B9DED1 /* InTestInteractorOutput.swift in Sources */,
+				8D61DC871F2B4950009ECF75 /* InTestDataCacheType.swift in Sources */,
 				8D058FE61F2A1E750083EC9C /* QuizTestHistory.swift in Sources */,
-				8D37835E1F1374EA001D69A1 /* MainScreenViewModel.swift in Sources */,
-				8D30FA141F177F2800A68E0E /* InTestInteractorDataConvertor.swift in Sources */,
+				8D61DC831F2B4944009ECF75 /* InTestInteractorOutput.swift in Sources */,
 				8D4E1FDA1F0FCA4800F1CC63 /* WatchSessionReceiveReplyModuleBaseType.swift in Sources */,
-				8D0EBE241F1908820000BBF4 /* HistoryScreenRouter.swift in Sources */,
+				8D61DC8E1F2B4961009ECF75 /* MainScreenDataStorage.swift in Sources */,
 				8D2795ED1F0D30D800B989FA /* WatchSessionDataParser.swift in Sources */,
-				8D3783641F138462001D69A1 /* MainScreenRouter.swift in Sources */,
-				8D3557081F16128200B9DED1 /* InTestViewProtocol.swift in Sources */,
-				8D35570A1F16129100B9DED1 /* InTestInteractorInput.swift in Sources */,
-				8D35571D1F1671DD00B9DED1 /* InTestWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1498,6 +1562,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1519,6 +1584,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
