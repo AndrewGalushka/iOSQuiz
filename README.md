@@ -7,11 +7,20 @@
 </p>
 
 ## About IOS Quiz
-**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, and save results both locally and remotely on the server.                                                                                        
+**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, and save results both locally and remotely on the server. Also IOS Quiz working on WatchOS on pair with IOS app by WatchConnectivity.                                                                                       
 
 **Test has two modes:**
 * *Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                                                                              
 * *Challenge* - сhooses one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
+
+**Features**
+- DataBase: NSUserDefaults, CoreData, Remote on server.
+- Animations: Core, UIKit.
+- Network: URLSession.
+- WatchConnectivity.
+- Swift 4 codable.
+- Patterns: MVC, MVVM, VIPER(WatchKitExtention).
+- Swift patterns: RequestRouter, ScreenRouter, SegueHandler, Dequeue cell generic, etc.
 
 [![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)](https://img.shields.io/badge/platforms-iOS%2C%20WatchOS-lightgrey.svg)
