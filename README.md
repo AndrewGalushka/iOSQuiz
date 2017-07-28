@@ -13,10 +13,11 @@
 * *Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                                                                              
 * *Challenge* - сhooses one random category from all available categories, wrong answer leads to the end of the test, 10 seconds for one question.
 
-**Features**
+**Features:**
 - DataBase: NSUserDefaults, CoreData, Remote on server.
 - Animations: Core, UIKit.
 - Network: URLSession.
+- Grand Central Dispatch (GCD).
 - WatchConnectivity.
 - Swift 4 codable.
 - Patterns: MVC, MVVM, VIPER(WatchKitExtention).
