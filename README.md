@@ -7,7 +7,7 @@
 </p>
 
 ## About IOS Quiz
-**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, and save results both locally and remotely on the server. Also IOS Quiz working on WatchOS on pair with IOS app by WatchConnectivity.                                                                                       
+**IOS Quiz** - application which allows authorization on the server for passing IOS programming tests, and save results both locally and remotely on the server. Also IOS Quiz working on WatchOS in pair with IOS app by WatchConnectivity.                                                                                       
 
 **Test has two modes:**
 * *Normal* - user сhooses appropriate test category, 5 minutes for whole test.                                                                                              
