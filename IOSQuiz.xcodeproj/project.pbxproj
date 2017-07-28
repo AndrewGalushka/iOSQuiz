@@ -152,7 +152,6 @@
 		8DBE65841F2A36C900CB0968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBE65801F2A36A200CB0968 /* Assets.xcassets */; };
 		8DBE65861F2A36CF00CB0968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBE65821F2A36A200CB0968 /* LaunchScreen.storyboard */; };
 		8DBE65871F2A36D200CB0968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBE65831F2A36A200CB0968 /* Main.storyboard */; };
-		8DBE65891F2A37D800CB0968 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DBE65811F2A36A200CB0968 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,7 +269,6 @@
 		8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8D3E11F81F0A559A004B21D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D3E11FC1F0A559A004B21D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3E120E1F0A798A004B21D0 /* MainScreenInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInterfaceController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		8D42F22A1F15213D003DAD52 /* InTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenter.swift; sourceTree = "<group>"; };
 		8D4A7E8A1F1CA35D00648A68 /* InTestPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTestPresenterType.swift; sourceTree = "<group>"; };
@@ -287,6 +285,7 @@
 		8D5D0ED01EE16AF500373BFF /* IOSQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5D0ED41EE16AF500373BFF /* IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizUITests.swift; sourceTree = "<group>"; };
 		8D5D0ED61EE16AF500373BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D61DC421F2B320F009ECF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6204851F18C64300462AA6 /* MainScreenDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenDataStorage.swift; sourceTree = "<group>"; };
 		8D6204891F18F48400462AA6 /* WKQuizAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKQuizAlerts.swift; sourceTree = "<group>"; };
 		8D62048C1F1900F800462AA6 /* HistoryScreenViewModelStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewModelStorage.swift; sourceTree = "<group>"; };
@@ -729,7 +728,7 @@
 				8D3E11F61F0A559A004B21D0 /* ExtensionDelegate.swift */,
 				8D3E11F81F0A559A004B21D0 /* NotificationController.swift */,
 				8D3E11FA1F0A559A004B21D0 /* Assets.xcassets */,
-				8D3E11FC1F0A559A004B21D0 /* Info.plist */,
+				8D61DC421F2B320F009ECF75 /* Info.plist */,
 				8D3E11F21F0A559A004B21D0 /* Supporting Files */,
 			);
 			name = Other;
@@ -1382,7 +1381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DBE65891F2A37D800CB0968 /* Info.plist in Resources */,
 				8DBE650E1F2A2AB700CB0968 /* QuizHistoryTableViewCell.xib in Resources */,
 				8DBE65861F2A36CF00CB0968 /* LaunchScreen.storyboard in Resources */,
 				8DBE64F91F2A267200CB0968 /* QuizTestQuestionViewController.xib in Resources */,
@@ -1616,7 +1614,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
-				INFOPLIST_FILE = "IOSQuizWatchOS Extension/Info.plist";
+				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -1637,7 +1635,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
-				INFOPLIST_FILE = "IOSQuizWatchOS Extension/Info.plist";
+				INFOPLIST_FILE = "WatchOS/IOSQuizWatchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -1662,7 +1660,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
 				IBSC_MODULE = IOSQuizWatchOS_Extension;
-				INFOPLIST_FILE = IOSQuizWatchOS/Info.plist;
+				INFOPLIST_FILE = WatchOS/IOSQuizWatchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1688,7 +1686,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YDDE2DY87F;
 				IBSC_MODULE = IOSQuizWatchOS_Extension;
-				INFOPLIST_FILE = IOSQuizWatchOS/Info.plist;
+				INFOPLIST_FILE = WatchOS/IOSQuizWatchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosquiz.ios.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
